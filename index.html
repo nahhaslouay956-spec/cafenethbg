@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>CaféNet Helsingborg</title>
+
+<style>
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+}
+
+body{
+font-family:Arial,sans-serif;
+background:linear-gradient(180deg,#0f172a,#111827,#1e293b,#312e81);
+color:white;
+line-height:1.6;
+}
+
+header{
+background:linear-gradient(135deg,#00c3ff,#7c3aed,#ff00cc);
+text-align:center;
+padding:40px 20px;
+}
+
+.logo{
+width:280px;
+max-width:90%;
+border-radius:20px;
+box-shadow:0 0 30px rgba(255,255,255,0.3);
+}
+
+header h1{
+margin-top:20px;
+font-size:3rem;
+}
+
+header p{
+font-size:1.2rem;
+}
+
+.hero{
+width:100%;
+height:600px;
+object-fit:cover;
+display:block;
+}
+
+section{
+padding:60px 20px;
+max-width:1200px;
+margin:auto;
+}
+
+.card{
+background:rgba(255,255,255,0.08);
+padding:30px;
+border-radius:20px;
+margin-bottom:30px;
+backdrop-filter:blur(10px);
+box-shadow:0 0 20px rgba(0,0,0,0.3);
+}
+
+h2{
+color:#00d4ff;
+margin-bottom:20px;
+font-size:2rem;
+}
+
+.gallery{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+gap:20px;
+}
+
+.gallery img{
+width:100%;
+height:250px;
+object-fit:cover;
+border-radius:15px;
+transition:0.3s;
+}
+
+.gallery img:hover{
+transform:scale(1.05);
+}
+
+.prices{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+gap:20px;
+}
+
+.price-box{
+background:linear-gradient(135deg,#00c3ff,#7c3aed);
+padding:20px;
+border-radius:15px;
+text-align:center;
+font-size:1.2rem;
+font-weight:bold;
+}
+
+.contact{
+background:linear-gradient(135deg,#ff00cc,#7c3aed);
+padding:30px;
+border-radius:20px;
+text-align:center;
+}
+
+.contact p{
+margin:10px 0;
+font-size:1.1rem;
+}
+
+footer{
+background:black;
+padding:30px;
+text-align:center;
+margin-top:40px;
+}
+
+</style>
+</head>
+
+<body>
+
+<header>
+
+<img src="Bilder/logo.png" class="logo">
+
+<h1>CaféNet Helsingborg</h1>
+
+<p>🎮 PLAY • ☕ RELAX • 🤝 CONNECT</p>
+
+</header>
+
+<img src="Bilder/hero.jpg" class="hero">
+
+<section>
+
+<div class="card">
+
+<h2>Välkommen till CaféNet</h2>
+
+<p>
+CaféNet Helsingborg är en modern mötesplats där gaming,
+biljard, fotbollsbord, café och gemenskap möts under samma tak.
+</p>
+
+<br>
+
+<p>
+Här kan du spela PlayStation med vänner, boka privata VIP-rum,
+utmana någon i biljard eller koppla av med en god kopp kaffe.
+</p>
+
+<br>
+
+<p>
+Vi vill skapa Helsingborgs bästa plats för ungdomar, familjer,
+vänner och alla som vill ha kul i en trygg och modern miljö.
+</p>
+
+</div>
+
+<div class="card">
+
+<h2>Våra Aktiviteter</h2>
+
+<div class="gallery">
+
+<img src="Bilder/hero.jpg">
+<img src="Bilder/hero.jpg4.jpg">
+<img src="Bilder/hero.jpg5.jpg">
+<img src="Bilder/hero.jpg6.jpg">
+<img src="Bilder/hero.jpg8.jpg">
+<img src="Bilder/logo (4).png">
+
+</div>
+
+</div>
+
+<div class="card">
+
+<h2>Priser</h2>
+
+<div class="prices">
+
+<div class="price-box">
+🎱 Biljard<br>
+150 kr/timme
+</div>
+
+<div class="price-box">
+🎮 PlayStation<br>
+150 kr/timme
+</div>
+
+<div class="price-box">
+⭐ VIP-rum<br>
+240 kr/timme
+</div>
+
+<div class="price-box">
+👥 Grupp-rum<br>
+180 kr/timme
+</div>
+
+<div class="price-box">
+⚽ Fotbollsbord<br>
+50 kr / 15 min
+</div>
+
+</div>
+
+</div>
+
+<div class="card">
+
+<h2>Café & Fika</h2>
+
+<p>☕ Kaffe – 39 kr</p>
+<p>🍵 Te – 29 kr</p>
+<p>☕ Cappuccino – 45 kr</p>
+<p>☕ Americano – 40 kr</p>
+<p>☕ Espresso – 40 kr</p>
+<p>🍩 Donut – 25 kr</p>
+<p>🥐 Croissant Mini – 29 kr</p>
+<p>🥐 Croissant Stor – 49 kr</p>
+<p>🥪 Smörgås – 28 kr</p>
+
+</div>
+
+<div class="contact">
+
+<h2 style="color:white;">Bokning & Information</h2>
+
+<p>
+Vill du boka biljard, PlayStation, VIP-rum,
+grupprum eller fotbollsbord?
+</p>
+
+<p>
+Kontakta våra lokalt ansvariga kontaktpersoner:
+</p>
+
+<p>
+<b>Louay Nahhas</b><br>
+Lokal ansvarig & Bokningar<br>
+📞 070-716 61 62
+</p>
+
+<p>
+<b>Nabih Hafiz</b><br>
+Lokal ansvarig & Bokningar<br>
+📞 076-344 62 06
+</p>
+
+<p>
+Vi ser fram emot att välkomna dig till CaféNet Helsingborg.
+</p>
+
+</div>
+
+</section>
+
+<footer>
+
+<h3>CaféNet Helsingborg</h3>
+
+<p>Play • Relax • Connect</p>
+
+<p>TikTok: @CafeNet.HGB</p>
+
+</footer>
+
+</body>
+</html>
